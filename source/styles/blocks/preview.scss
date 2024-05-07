@@ -1,8 +1,8 @@
-.prewiev {
+.preview {
 
 }
 
-.prewiev__title {
+.preview__title {
     font-family: $content-text;
     font-size: 36px;
     font-weight: 400;
@@ -11,14 +11,14 @@
 }
 
 @media (min-width: $tablet-width) {
-    .prewiev__title {
+    .preview__title {
         font-size: 60px;
         line-height: 60px;
         color: $content-color-text;
     }
 }
 
-.prewiev__slogan {
+.preview__slogan {
     font-family: $content-text;
     font-size: 14px;
     line-height: 14px;
@@ -26,14 +26,14 @@
 }
 
 @media (min-width: $tablet-width) {
-    .prewiev__slogan {
+    .preview__slogan {
         font-size: 20px;
         line-height: 20px;
         color: $content-color-text;
     }
 }
 
-.prewiev__button {
+.preview__button {
     font-size: 16px;
     line-height: 20px;
     text-decoration: none;
