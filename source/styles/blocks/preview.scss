@@ -1,0 +1,43 @@
+.preview {
+
+}
+
+.preview__title {
+    font-family: $content-text;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    color: $second-color-text;
+}
+
+@media (min-width: $tablet-width) {
+    .preview__title {
+        font-size: 60px;
+        line-height: 60px;
+        color: $content-color-text;
+    }
+}
+
+.preview__slogan {
+    font-family: $content-text;
+    font-size: 14px;
+    line-height: 14px;
+    color: $second-color-text;
+}
+
+@media (min-width: $tablet-width) {
+    .preview__slogan {
+        font-size: 20px;
+        line-height: 20px;
+        color: $content-color-text;
+    }
+}
+
+.preview__button {
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    background-color: $color-button;
+}
+
+
