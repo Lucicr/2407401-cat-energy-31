@@ -1,0 +1,36 @@
+.example {
+
+}
+
+.example__title {
+    font-family: $content-text;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 400;
+    color: $content-color-text;
+}
+
+.example__desc {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.example__number {
+    font-family: $content-text;
+    font-size: 24px;
+    line-height: 24px;
+    color: $content-color-text;
+}
+
+.example__text {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.example__slogan {
+    font-family: $content-text;
+    font-size: 14px;
+    line-height: 20px;
+    color: $content-color-text;
+    text-transform: uppercase;
+}
