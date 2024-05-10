@@ -10,7 +10,15 @@
     color: $content-color-text;
 }
 
-.program-desc {
+.program__desc {
     font-size: 14px;
+    line-height: 18px;
+}
+
+.program__link {
+    font-family: $content-text;
+    font-size: 16px;
     line-height: 16px;
+    color: $content-color-text;
+    text-decoration: none;
 }

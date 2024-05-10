@@ -1,0 +1,26 @@
+.item-more {
+
+}
+
+.item-more__title {
+    font-family: $content-text;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #111111;
+}
+
+.item-more__desc {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.item-more__link {
+    font-family: $content-text;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: $base-color-text;
+    background-color: #F2F2F2;
+}

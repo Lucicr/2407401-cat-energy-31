@@ -1,0 +1,17 @@
+.location {
+
+}
+
+.location__desc {
+    font-family: $content-text;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111111;
+    text-transform: uppercase;
+}
+
+.location__address {
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+}

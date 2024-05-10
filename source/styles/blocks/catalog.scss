@@ -1,0 +1,31 @@
+.catalog {
+
+}
+
+.catalog__title {
+    font-family: $content-text;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;
+    color: $content-color-text;
+}
+
+.catalog__title-product {
+    font-family: $content-text;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: $product-color-text;
+}
+
+.catalog__term, .catalog__meaning {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.catalog__button {
+    font-family: $content-text;
+    font-size: 16px;
+    line-height: 20px;
+    color: $second-color-text;
+}
