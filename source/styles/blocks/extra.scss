@@ -1,0 +1,16 @@
+.extra__desc{
+  
+    &::before {
+      content: "";
+      display: block;
+      width: 78px;
+      height: 80px;
+      background-color: $main-color;
+      background-repeat: no-repeat;
+      background-size: 78px 80px;
+      background-position: center;
+      background-image: url("../../icons/stack.svg#present");
+    }
+
+  
+}

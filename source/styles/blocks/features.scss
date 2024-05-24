@@ -1,0 +1,29 @@
+.features__item {
+  
+    &::before {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 60px;
+      background-color: $main-color;
+      background-repeat: no-repeat;
+      background-size: 30px 32px;
+      background-position: center;
+    }
+  
+    &--healthy::before {
+      background-image: url("../../icons/stack.svg#healthy");
+    }
+  
+    &--handy::before {
+      background-image: url("../../icons/stack.svg#handy");
+    }
+  
+    &--swap::before {
+      background-image: url("../../icons/stack.svg#swap");
+    }
+  
+    &--upgrade::before {
+      background-image: url("../../icons/stack.svg#upgrade");
+    }
+}
