@@ -20,9 +20,9 @@
           <source width="60" height="50" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-cat-tablet.svg">
         <img class="main-header__logo-image" src="images/logo-cat-mobile.svg" width="33" height="38" alt="Логотип Кэт-энерджи">
       </picture>
-      </a>
-      <a class="main-header__title" href="#">
-        <img class="main-header__title-image" src="#" width="101" height="18" alt="Название сайта Кэт-энерджи"> 
+        <svg width="101" height="18">
+          <use href="icons/stack.svg#logo-text"></use>
+        </svg>
       </a>
       <button class="main-header__toggle" type="button">
         <span class="visually-hidden">Открыть меню</span>
@@ -68,7 +68,7 @@
         <div class="program__wrapper">        
           <h2 class="visually-hidden">Программы питания</h2>
           <ul class="program__list">
-            <li class="program__item program__item--small-cat">
+            <li class="program__item program__item--slim-cat">
             <h3 class="program__title">Похудение</h3>
             <p class="program__desc ">Ваш кот весит больше собаки и 
               почти утратил способность лазить 
@@ -77,7 +77,7 @@
                питомцу сбросить лишний вес.</p>
                <a class="program__link" href="catalog.html">Каталог SLIM</a>
               </li>
-            <li class="program__item program__item--big-cat">
+            <li class="program__item program__item--strong-cat">
               <h3 class="program__title">Набор массы</h3>
               <p class="program__desc">Заработать авторитет среди 
                 дворовых котов и даже собак? 
@@ -150,17 +150,16 @@
                 <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/before-cat@1x.png 1x, images/before-cat@2x.png 2x">
               <img class="slider__image slider__image--before" src="images/before-cat-mobile@1x.png" srcset="images/before-cat-mobile@2x.png 2x" width="280" height="256" alt="Кот до похудения">
               </picture>
+              <div class="slider__modify">
+              <button class="slider__button" type="button">
+                <span class="visually-hidden">Поменять изображение</span>
+              </button>
+              </div>
               <picture>
                 <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/after-cat@1x.png 1x, images/after-cat@2x.png 2x">
               <img class="slider__image slider__image--after" src="images/after-cat-mobile@1x.png" srcset="images/after-cat-mobile@2x.png 2x" width="280" height="256" alt="Кот после похудения">
             </picture>
             </div>
-            <div class="slider__modify">
-              <button class="slider__button" type="button">
-                <span class="visually-hidden">Поменять изображение</span>
-              </button>
-            </div>
-          </div>
         </div>
        </section>
        <section class="location">
@@ -187,17 +186,17 @@
           <ul class="social__list">
         <li class="social__item">
           <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">
-            <img src="#" width="28" height="22" alt="Вконтакте">
+            <span class="visually-hidden">Вконтакте</span>
           </a>
         </li>
         <li class="social__item">
           <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">
-            <img src="#" width="28" height="22" alt="YouTube">
+            <span class="visually-hidden">YouTube</span>
           </a>
         </li>
         <li class="social__item">
           <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">
-            <img src="#" width="28" height="22" alt="Telegram">
+            <span class="visually-hidden">Телеграм</span>
             </a>
         </li>
       </ul>
@@ -205,8 +204,9 @@
         <div class="main-footer__copyrigth copyright">
           <a class="copyright__link" href="https://htmlacademy.ru/">
             <p class="copyright__text">HTML Academy</p>
-            <img class="copyright__logo" src="#" width="27" height="34" alt="HTML Academy">
-          </a>npm 
+            <svg class="copyright__logo" width="27" height="34">
+              <use href="icons/stack.svg#logo-academy"></use>
+            </svg>
         </div>
       </div>
     </footer>
