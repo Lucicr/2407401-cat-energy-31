@@ -1,3 +1,4 @@
+
 .extra__desc{
   
     &::before {
@@ -13,4 +14,42 @@
     }
 
   
+.extra {
+
+}
+
+.extra__title {
+    font-family: $content-text;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    color: $content-color-text;
+}
+
+.extra__title-product {
+    font-family: $content-text;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: $product-color-text;
+}
+
+.extra__term, .extra__meaning {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.extra__button {
+    font-family: $content-text;
+    font-size: 16px;
+    line-height: 20px;
+    color: $second-color-text;
+}
+
+.extra__desc {
+    font-size: 16px;
+    line-height: 20px;
+    color: $second-color-text;
+    background-color: $color-background;
+
 }
